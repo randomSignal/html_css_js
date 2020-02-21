@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+/* 			div {
+				border: 1px dashed #A4A4A4;
+			} */
+			#wrap {
+				margin: 0 auto;
+				width: 856px;
+				height: 376px;
+			}
+			#left {
+				width: 670px;
+				height: 361px;
+				display: inline-block;
+				float: left;
+				background-color: blue;
+				margin-top: 9px;
+				margin-left: 16px;
+			}
+			img {
+				width: 670px;
+				height: 361px;
+			}
+			#right {
+				float: left;
+				width: 150px;
+				height: 361px;
+				display: inline-block;
+				margin-top: 9px;
+				margin-left: 10px;
+			}
+			.item,.item-top {
+				width: 150px;
+				height: 113px;
+			}
+			.item {
+				margin-top: 6px;
+			}
+			.dot1,.dot2,.dot3,.dot4 {
+				display: inline-block;
+				border: 1px solid #000000;
+				width: 8px;
+				height: 8px;
+				border-radius: 50%;
+				background-color: #9e9da5;
+				float: left;
+			}
+			.dot1 {
+				position: absolute;
+				left: 592px;
+				top: 339px;
+				float: left;
+			}
+			.dot2 {
+				position: absolute;
+				left: 607px;
+				top: 339px;
+				float: left;
+			}
+			.dot3 {
+				position: absolute;
+				left: 622px;
+				top: 339px;
+				float: left;
+			}
+			.dot4 {
+				position: absolute;
+				left: 637px;
+				top: 339px;
+				float: left;
+			}
+			.dot1:hover,.dot2:hover,.dot3:hover,.dot4:hover {
+				background-color: #d35c5b;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="left">
+				<img src="big.jpeg">
+				<div class="dot1"></div>
+				<div class="dot2"></div>
+				<div class="dot3"></div>
+				<div class="dot4"></div>
+			</div>
+			<div id="right">
+				<div id="item"><img class="item-top" src="big.jpeg"></div>
+				<div id="item"><img class="item" src="big.jpeg"></div>
+				<div id="item"><img class="item" src="big.jpeg"></div>
+			</div>
+		</div>
+	</body>
+</html>
