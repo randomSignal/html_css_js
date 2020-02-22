@@ -24,6 +24,7 @@
 				background-color: blue;
 				margin-top: 9px;
 				margin-left: 16px;
+				position: relative;
 			}
 			img {
 				width: 670px;
@@ -80,6 +81,20 @@
 			.dot1:hover,.dot2:hover,.dot3:hover,.dot4:hover {
 				background-color: #d35c5b;
 			}
+			.page-left {
+				position: absolute;
+				left: 26px;
+				top: 138px;
+				font-size: 48px;
+				color: white;
+			}
+			.page-right {
+				position: absolute;
+				left: 629px;
+				top: 138px;
+				font-size: 48px;
+				color: white;
+			}
 		</style>
 	</head>
 	<body>
@@ -90,6 +105,8 @@
 				<div class="dot2"></div>
 				<div class="dot3"></div>
 				<div class="dot4"></div>
+				<div class="page-left">&lt;</div>
+				<div class="page-right">&gt;</div>
 			</div>
 			<div id="right">
 				<div id="item"><img class="item-top" src="big.jpeg"></div>
